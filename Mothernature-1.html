@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <link rel="icon" href="Images/logo.png"> 
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Mother Nature Photography</h1>
+    </header>
+
+    <main>
+        <section class="image-container">
+            <img id="gallery-image" src="Images/sheep.webp" alt="Nature Image">
+        </section>
+
+        <section class="button-container">
+            <button class="image-button" id="button1" onclick="changeImage('Images/sheep.webp', this)">Bighorn Sheep</button>
+            <button class="image-button" id="button2" onclick="changeImage('Images/bear.webp', this)">Black Bear</button>
+            <button class="image-button" id="button3" onclick="changeImage('Images/moose.webp', this)">Moose</button>
+            <button class="image-button" id="button4" onclick="changeImage('Images/wolf.webp', this)">Wolf</button>
+            <button class="image-button" id="button5" onclick="changeImage('Images/elk.webp', this)">Elk</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Mother Nature Photography</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
